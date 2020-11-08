@@ -471,11 +471,12 @@ body {
         font-size: 18px;
         max-width: 400px;
     }
-
     .card {
         flex-basis: 49%;
     }
-
+    .card-image-restaurant{
+        right: -54px;
+    }
     .footer-link {
         font-size: 16px;
     }
@@ -493,7 +494,6 @@ body {
     .rating {
         flex-basis: 100%;
     }
-
     .card-title {
         font-size: 18px;
     }
@@ -503,15 +503,9 @@ body {
         height: 182px;
         object-fit: cover;
     }
-
-    .card-text-restaurant {
-        min-height: 296px;
+    .card-image-restaurant{
+        right: -25px;
     }
-
-    .card-image-restaurant {
-        right: -27px;
-    }
-
     .promo {
         background-size: 404px;
         background-position: bottom -6px right -198px;
