@@ -145,17 +145,17 @@ body {
 }
 
 .card-image {
-    width: 366px;
-    height: 224px;
+    width: 100%;
+    height: 230px;
     object-fit: cover;
 }
 
 .card-image-restaurant {
-    width: 238px;
-    height: 232px;
+    width: 269px;
+    height: 256px;
     object-fit: cover;
     position: relative;
-    right: -71px;
+    right: -46px;
 }
 
 .card-text {
@@ -436,9 +436,9 @@ body {
     line-height: 23px;
 }
 
-@media (max-width: 1366x) {
+@media (max-width: 1366px) {
     .container {
-        min-width: 960px;
+        max-width: 960px;
     }
 
     .promo {
@@ -453,6 +453,13 @@ body {
     .category, 
     .price {
         font-size: 14px;
+    }
+
+    .card-image-restaurant {
+        width: 251px;
+        right: -20px;
+        height: 256px;
+        object-fit: cover;
     }
 }
 
@@ -471,12 +478,18 @@ body {
         font-size: 18px;
         max-width: 400px;
     }
+
     .card {
         flex-basis: 49%;
     }
-    .card-image-restaurant{
-        right: -54px;
+
+    .card-image-restaurant {
+        width: 246px;
+        right: -57px;
+        height: 256px;
+        object-fit: cover;
     }
+    
     .footer-link {
         font-size: 16px;
     }
@@ -504,7 +517,7 @@ body {
         object-fit: cover;
     }
     .card-image-restaurant{
-        right: -25px;
+        right: -10px;
     }
     .promo {
         background-size: 404px;
@@ -547,6 +560,9 @@ body {
         flex-basis: 100%;
     }
     .card-image {
+        width: 100%;
+    }
+    .card-image-restaurant{
         width: 100%;
     }
     .footer {
