@@ -504,6 +504,14 @@ body {
         object-fit: cover;
     }
 
+    .card-text-restaurant {
+        min-height: 296px;
+    }
+
+    .card-image-restaurant {
+        right: -27px;
+    }
+
     .promo {
         background-size: 404px;
         background-position: bottom -6px right -198px;
