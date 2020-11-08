@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PizzaBurger - Доставка еды на дом</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+</head>
+<body>
+<div class="container">
+    <!-- Шапка сайта -->
+    <header class="header">
+        <!-- Логотип -->
+        <a href="index.html" class="logo">
+            <img src="img/icon/logo.svg" alt="Альтернативный текст">
+        </a>
+        <!-- Поле поиска -->
+        <input type="text" class="input input-address" placeholder="Адрес доставки">
+        <!-- Кнопки в шапке -->
+        <div class="buttons">
+            <button class="button button-primary">
+                <img src="img/icon/user.svg" alt="User" class="button-icon">
+                <span class="button-text">Войти</span>
+            </button>
+            <button class="button" id="cart-button">
+                <img src="img/icon/shopping-cart.svg" alt="Shopping-Cart" class="button-icon">
+                <span class="button-text">Корзина</span>
+            </button>
+        </div>
+    </header>
+
+</div>
+<!-- Container ending -->
+    <div class="main">
+        <div class="container">
+            <section class="restaraunts">
+                <div class="section-heading">
+                    <h2 class="section-title">Пицца Плюс</h2>
+                    <div class="card-info"> 
+                        <div class="rating">
+                        <img src="img/icon/rating.svg" alt="rating-star"> 4.5</div>
+                        <div class="price">От 900 ₽</div>
+                        <div class="category">Пицца</div>
+                    </div>
+                    <!-- /.card-info -->
+                    
+                </div>
+                <div class="cards">
+                    <div class="card animate__animated animate__fadeInUp wow fadeInUp" data-wow-delay="0.2s">
+                        <img src="img/pizza-plus/pizza-vesuvius.jpg" alt="Image" class="card-image-restaurant">
+                        <div class="card-text-restaurant">
+                            <div class="card-heading">
+                                <h3 class="card-title card-title-reg">Пицца Везувий</h3>
+                            </div>
+                            <div class="card-info">
+                                <div class="ingredients">Соус томатный, сыр «Моцарелла», ветчина, пепперони, перец
+                                    «Халапенье», соус «Тобаско», томаты.</div>
+                            </div>
+                            <!-- /.card-heading -->
+                            <div class="card-buttons">
+                                <button class="button button-primary">
+                                    <span class="button-card-text-restaurant">В корзину</span>
+                                    <img src="img/icon/shopping-cart-white.svg" alt="shopping-cart" class="button-card-image">
+                                </button>
+                                <strong class="card-price-bold">545 ₽</strong>
+                            </div>
+                        </div> 
+                        <!-- card-text-restaurant Ending -->
+                    </div>    
+                    <!-- Card ending -->
+                    <div class="card animate__animated animate__fadeInUp wow fadeInUp" data-wow-delay="0.4s">
+                        <img src="img/pizza-plus/pizza-girls.jpg" alt="Image" class="card-image-restaurant">
+                        <div class="card-text-restaurant">
+                            <div class="card-heading">
+                                <h3 class="card-title card-title-reg">Пицца Девичник</h3>
+                            </div>
+                            <div class="card-info">
+                                <div class="ingredients">Соус томатный, постное тесто, нежирный сыр, кукуруза, лук, маслины,
+                                    грибы, помидоры, болгарский перец.</div>
+                            </div>
+                            <!-- /.card-heading -->
+                            <div class="card-buttons">
+                                <button class="button button-primary">
+                                    <span class="button-card-text-restaurant">В корзину</span>
+                                    <img src="img/icon/shopping-cart-white.svg" alt="shopping-cart" class="button-card-image">
+                                </button>
+                                <strong class="card-price-bold">450 ₽</strong>
+                            </div>
+                        </div> 
+                        <!-- card-text-restaurant Ending -->
+                    </div>    
+                    <!-- Card ending -->
+                    <div class="card animate__animated animate__fadeInUp wow fadeInUp" data-wow-delay="0.6s">
+                        <img src="img/pizza-plus/pizza-oleole.jpg" alt="Image" class="card-image-restaurant">
+                        <div class="card-text-restaurant">
+                            <div class="card-heading">
+                                <h3 class="card-title card-title-reg">Пицца Оле-Оле<</h3>
+                            </div>
+                            <div class="card-info">
+                                <div class="ingredients">Соус томатный, сыр «Моцарелла», черри, маслины, зелень, майонез</div>
+                            </div>
+                            <!-- /.card-heading -->
+                            <div class="card-buttons">
+                                <button class="button button-primary">
+                                    <span class="button-card-text-restaurant">В корзину</span>
+                                    <img src="img/icon/shopping-cart-white.svg" alt="shopping-cart" class="button-card-image">
+                                </button>
+                                <strong class="card-price-bold">440 ₽</strong>
+                            </div>
+                        </div> 
+                        <!-- card-text-restaurant Ending -->
+                    </div>    
+                    <!-- Card ending --> 
+                    <div class="card animate__animated animate__fadeInUp wow fadeInUp" data-wow-delay="0.2s">
+                        <img src="img/pizza-plus/pizza-plus.jpg" alt="Image" class="card-image-restaurant">
+                        <div class="card-text-restaurant">
+                            <div class="card-heading">
+                                <h3 class="card-title card-title-reg">Пицца Плюс</h3>
+                            </div>
+                            <div class="card-info">
+                                <div class="ingredients">Соус томатный, сыр «Моцарелла», сыр «Чеддер», томаты, пепперони,
+                                    телятина, грибы, бекон, болгарский перец.</div>
+                            </div>
+                            <!-- /.card-heading -->
+                            <div class="card-buttons">
+                                <button class="button button-primary">
+                                    <span class="button-card-text-restaurant">В корзину</span>
+                                    <img src="img/icon/shopping-cart-white.svg" alt="shopping-cart" class="button-card-image">
+                                </button>
+                                <strong class="card-price-bold">805 ₽</strong>
+                            </div>
+                        </div> 
+                        <!-- card-text-restaurant Ending -->
+                    </div>    
+                    <div class="card animate__animated animate__fadeInUp wow fadeInUp" data-wow-delay="0.4s">
+                        <img src="img/pizza-plus/pizza-hawaiian.jpg" alt="Image" class="card-image-restaurant">
+                        <div class="card-text-restaurant">
+                            <div class="card-heading">
+                                <h3 class="card-title card-title-reg">Пицца Гавайская</h3>
+                            </div>
+                            <div class="card-info">
+                                <div class="ingredients">Соус томатный, сыр «Моцарелла», ветчина, ананасы</div>
+                            </div>
+                            <!-- /.card-heading -->
+                            <div class="card-buttons">
+                                <button class="button button-primary">
+                                    <span class="button-card-text-restaurant">В корзину</span>
+                                    <img src="img/icon/shopping-cart-white.svg" alt="shopping-cart" class="button-card-image">
+                                </button>
+                                <strong class="card-price-bold">440 ₽</strong>
+                            </div>
+                        </div> 
+                        <!-- card-text-restaurant Ending -->
+                    </div>    
+                    <!-- Card ending -->
+                    <!-- Card ending -->
+                    <div class="card animate__animated animate__fadeInUp wow fadeInUp"data-wow-delay="0.6s">
+                        <img src="img/pizza-plus/pizza-classic.jpg" alt="Image" class="card-image-restaurant">
+                        <div class="card-text-restaurant">
+                            <div class="card-heading">
+                                <h3 class="card-title card-title-reg">Пицца Классика</h3>
+                            </div>
+                            <div class="card-info">
+                                <div class="ingredients">Соус томатный, сыр «Моцарелла», сыр «Пармезан», ветчина, салями,
+                                    грибы.</div>
+                            </div>
+                            <!-- /.card-heading -->
+                            <div class="card-buttons">
+                                <button class="button button-primary">
+                                    <span class="button-card-text-restaurant">В корзину</span>
+                                    <img src="img/icon/shopping-cart-white.svg" alt="shopping-cart" class="button-card-image">
+                                </button>
+                                <strong class="card-price-bold">510 ₽</strong>
+                            </div>
+                        </div> 
+                        <!-- card-text-restaurant Ending -->
+                    </div>    
+                    <!-- Card ending -->   
+                </div>
+                <!-- Cards ending -->
+            </section>
+        </div>
+        <!-- Main container Ending -->
+    </div>
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-block">
+                <a href="index.html" class="logo">
+                    <img src="img/icon/logo.svg" alt="Альтернативный текст">
+                </a>
+                <nav class="footer-nav">
+                    <a href="#" class="footer-link">Ресторанам</a>
+                    <a href="#" class="footer-link">Курьерам</a>
+                    <a href="#" class="footer-link">Пресс-центр</a>
+                    <a href="#" class="footer-link">Контакты</a>
+                </nav>
+                <div class="social-links">
+                    <a href="#" class="social-link"><img src="img/social/instagram.svg" alt="instagram"></a>
+                    <a href="#" class="social-link"><img src="img/social/fb.svg" alt="Facebook"></a>
+                    <a href="#" class="social-link"><img src="img/social/vk.svg" alt="Vkontakte"></a>
+                </div>
+            </div>
+        </div>
+        <!-- Footer Container Ending -->
+    </footer>
+    <div class="modal">
+        <div class="modal-dialog">
+            <div class="modal-header">
+                <h3 class="modal-title">Корзина</h3>
+                <button class="close">&times;</button>
+            </div>
+            <!-- Modal-header Ending -->
+            <div class="modal-body">
+                <div class="food-row">
+                    <span class="food-name">Ролл угорь стандарт</span>
+                    <strong class="food-price">250 ₽</strong>
+                    <div class="food-counter">
+                        <button class="counter-button">-</button>
+                        <span class="counter">1</span>
+                        <button class="counter-button">+</button>
+                    </div>
+                </div>
+                <!-- Foods-row Ending  -->
+                <div class="food-row">
+                    <span class="food-name">Ролл угорь стандарт</span>
+                    <strong class="food-price">250 ₽</strong>
+                    <div class="food-counter">
+                        <button class="counter-button">-</button>
+                        <span class="counter">1</span>
+                        <button class="counter-button">+</button>
+                    </div>
+                </div>
+                <!-- Foods-row Ending  -->
+                <div class="food-row">
+                    <span class="food-name">Ролл угорь стандарт</span>
+                    <strong class="food-price">250 ₽</strong>
+                    <div class="food-counter">
+                        <button class="counter-button">-</button>
+                        <span class="counter">1</span>
+                        <button class="counter-button">+</button>
+                    </div>
+                </div>
+                <!-- Foods-row Ending  -->
+                <div class="food-row">
+                    <span class="food-name">Ролл угорь стандарт</span>
+                    <strong class="food-price">250 ₽</strong>
+                    <div class="food-counter">
+                        <button class="counter-button">-</button>
+                        <span class="counter">1</span>
+                        <button class="counter-button">+</button>
+                    </div>
+                </div>
+                <!-- Foods-row Ending  -->
+                <div class="food-row">
+                    <span class="food-name">Ролл угорь стандарт</span>
+                    <strong class="food-price">250 ₽</strong>
+                    <div class="food-counter">
+                        <button class="counter-button">-</button>
+                        <span class="counter">1</span>
+                        <button class="counter-button">+</button>
+                    </div>
+                </div>
+                <!-- Foods-row Ending  -->
+            </div>
+            <!-- Modal-body Ending -->
+            <div class="modal-footer">
+                <span class="price-tag">1250 ₽</span>
+                <div class="footer-buttons">
+                    <button class="button button-primary">Оформить заказ</button>
+                    <button class="button" id="cancel">Отмена</button>
+                </div>
+            </div>
+            <!-- Modal-footer Ending -->
+        </div>
+        <!-- Modal-dialog Ending -->
+    </div>
+    <script src="js/main.js"></script>
+    <script src="js/wow.min.js"></script>
+    <script src="js/wow.js"></script>
+</body>
+</html>
